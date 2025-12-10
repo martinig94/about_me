@@ -45,4 +45,18 @@ nav-menu: true
 | **Python** | Numerical optimization, linear algebra, statistics, machine learning, Bayesian computational methods, surrogate modeling, visualization, web development, automated code documentation. Libraries: numpy, scipy, sklearn, pandas, pyspark, matplotlib, pyMC3, nestle, keras, pytorch, xgboost, catboost, sphinx, mkdocs, jinja2, etc. |
 | **R** | Linear algebra, nonlinear numerical methods, Bayesian analysis, statistics, visualization, interactive web applications. Libraries: dplyr, rstan, bmle, evd, parallel, shiny, ggplot2, leafletR, etc. |
 | **Software Engineering** | git, GitLab, GitHub; unit testing, integration testing, CI/CD, automated documentation; package development (PyPI). |
-| **Other Tools** | Tableau, PowerBI; Kobo ToolBox; Microsoft O
+| **Other Tools** | Tableau, PowerBI; Kobo ToolBox; Microsoft Office, Adobe Illustrator; LaTeX; SQL, PostgreSQL; Web: CSS, HTML, Jekyll; GIS: QGIS; Docker. |
+
+
+
+# Soft Skills
+
+| Category                  | Skills / Competencies |
+|----------------------------|---------------------|
+| **Leadership & Teamwork**  | Team captain experience, youth team coordination, mentoring, motivating players, collaborative project work, empathy in coaching and teamwork |
+| **Communication**           | Public speaking, presentations, report writing, coaching instructions, cross-cultural communication |
+| **Analytical Thinking**     | Problem-solving, data interpretation, critical thinking, decision-making under uncertainty |
+| **Adaptability & Continuous Learning** | Quick learning of new tools and methods, adapting to different cultural and professional contexts, continuous professional development, desire for self-improvement |
+| **Organization & Planning** | Project management, training session planning, event coordination, time management |
+| **Creativity & Innovation** | Developing new training exercises, applying innovative data solutions, designing data visualization and reporting tools |
+| **Resilience & Persistence**| Adaptabiity to multicultural environments, Managing challenging situations in humanitarian and sports environments, maintaining performance under pressure |
