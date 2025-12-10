@@ -60,3 +60,12 @@ nav-menu: true
 | **Organization & Planning** | Project management, training session planning, event coordination, time management |
 | **Creativity & Innovation** | Developing new training exercises, applying innovative data solutions, designing data visualization and reporting tools |
 | **Resilience & Persistence**| Adaptabiity to multicultural environments, Managing challenging situations in humanitarian and sports environments, maintaining performance under pressure |
+
+# Language Skills
+
+| Language | Proficiency |
+|----------|-------------|
+| English  | Full professional proficiency |
+| French   | Limited working proficiency |
+| Spanish  | Limited working proficiency |
+| Italian  | Native or bilingual proficiency |
