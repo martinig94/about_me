@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My background
+title: Professional experience
 description: An engineer in the Humanitarian sector
 image: assets/images/giuli_ai.jpg
 nav-menu: true
