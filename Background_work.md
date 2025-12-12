@@ -11,7 +11,7 @@ nav-menu: true
 
 ### [OCHA – Centre for Humanitarian Data](https://centre.humdata.org/)
 **Data Scientist** - Remote  
-**Oct 2024 – Present**
+**Oct 2024 – Present**  
 **Main activities:**
 - Technical lead of [HDX Signals](https://un-ocha-centre-for-humanitarian.gitbook.io/hdx-signals)
   - Project management and planning  
