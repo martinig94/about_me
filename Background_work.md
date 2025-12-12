@@ -10,15 +10,15 @@ nav-menu: true
 # Work Experience
 ### [OCHA – Centre for Humanitarian Data](https://centre.humdata.org/)
 **Data Scientist** - Remote
-**Oct 2024 – Present**  
-****  
+**Oct 2024 – Present**
 **Main responsibilities:**
 - Technical lead of [HDX Signals](https://un-ocha-centre-for-humanitarian.gitbook.io/hdx-signals)
   - Project management and planning  
   - Development of new features  
   - Daily maintenance of the tool  
   - Project dissemination
-- Development of Anticipatory Action Frameworks
+- Development of Anticipatory Action Frameworks  
+
 ---
 
 ### [United Nations World Food Programme – Supply Chain Division, Supply Chain Planning Branch](https://www.wfp.org/)  
