@@ -5,7 +5,7 @@ description: An engineer in the Humanitarian sector
 image: assets/images/giuli_ai.jpg
 nav-menu: true
 ---
-[Download my Professional CV (PDF)](/assets/cv_professional.pdf){:download="Giulia_Martini_CV.pdf"}
+[Download my Professional CV (PDF)](about_me/assets/cv_professional.pdf){:download="Giulia_Martini_CV.pdf"}
 
 # Work Experience
 ### Data Engineer — OCHA - Centre for Humanitarian Data  

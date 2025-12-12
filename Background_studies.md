@@ -5,8 +5,8 @@ description: Studies, hard and soft skills
 image: assets/images/giuli.jpg
 nav-menu: true
 ---
-[Download my Professional CV (PDF)](/assets/cv_professional.pdf){:download="Giulia_Martini_CV.pdf"}  
-[Download my Basketball CV (PDF)](/assets/cv_basketball.pdf){:download="Giulia_Martini_CV_basketball.pdf"}
+[Download my Professional CV (PDF)](about_me/assets/cv_professional.pdf){:download="Giulia_Martini_CV.pdf"}  
+[Download my Basketball CV (PDF)](about_me/assets/cv_basketball.pdf){:download="Giulia_Martini_CV_basketball.pdf"}
 # Education
 
 ## M.Sc. in Structural Engineering

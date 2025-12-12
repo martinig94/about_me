@@ -35,7 +35,7 @@ refining my coaching competencies. I hold a particular interest in fostering pla
 on the constraints-led approach and differential learning. I am seeking opportunities abroad to broaden my understanding of the game and
 further advance my coaching expertise.
 ---  
-[Download my Basketball CV (PDF)](/assets/cv_basketball.pdf){:download="Giulia_Martini_CV_basketball.pdf"}
+[Download my Basketball CV (PDF)](about_me/assets/cv_basketball.pdf){:download="Giulia_Martini_CV_basketball.pdf"}
 
 
 # Basketball Experience — Coaching
