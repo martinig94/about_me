@@ -43,14 +43,14 @@ further advance my coaching expertise.
 <div class="timeline">
 
 <div class="timeline-item">
-  <div class="timeline-date">Sep 2025 – Current</div>
-  <div class="timeline-title">Female Section Coordinator & Coach</div>
+  <div class="timeline-date">Sep 2025 – Present</div>
+  <div class="timeline-title">Women’s Youth Section Coordinator & Coach</div>
   <div class="timeline-sub">GBP Frassati Roma — Rome (IT)</div>
   Coach for the U13 and U11 Women’s Youth Teams.
 </div>
 
 <div class="timeline-item">
-  <div class="timeline-date">Sep 2025 – Current</div>
+  <div class="timeline-date">Sep 2025 – Present</div>
   <div class="timeline-title">Assistant coach</div>
   <div class="timeline-sub">Italian Basketball Federation, regional section — Rome (IT)</div>
   Assistant Coach for the Italian Basketball Federation’s Women’s Youth Regional Activities and Programs.
@@ -80,7 +80,7 @@ further advance my coaching expertise.
   <div class="timeline-date">Sep 2022 – June 2023</div>
   <div class="timeline-title">Assistant Coach</div>
   <div class="timeline-sub">SMIT Roma — Rome (IT)</div>
-  Assistant coach for the U19 Women's Team 
+  Assistant coach for the U19 Women's Team.
 </div>
 
 <div class="timeline-item">
@@ -99,7 +99,7 @@ further advance my coaching expertise.
   <div class="timeline-date">Sep 2013 – June 2017</div>
   <div class="timeline-title">Kids Basketball Coach & Youth Section Coordinator</div>
   <div class="timeline-sub"><a href="https://pinodragonsbasket.wixsite.com/asd-pino-dragons">A.S.D Pino Dragons Basket</a> — Florence (IT)</div>
-  Coach for U12, U11, U9, U7 teams.
+  Coach for U12, U11, U9, U7 Teams.
 </div>
 
 </div>
@@ -110,7 +110,7 @@ further advance my coaching expertise.
 <div class="timeline">
 
 <div class="timeline-item">
-  <div class="timeline-date">December 2026 </div>
+  <div class="timeline-date">December 2025 - Present</div>
   <div class="timeline-title">EHCB Coaches Academy</div>
   <div class="timeline-sub"><a href="https://headcoaches.org/">Euroleague Head Coaches Board</a> — Online<br>Scholarship awardee</div>
 </div>
