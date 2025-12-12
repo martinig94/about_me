@@ -50,7 +50,7 @@ further advance my coaching expertise.
 </div>
 
 <div class="timeline-item">
-  <div class="timeline-date">Sep 2025 – Present</div>
+  <div class="timeline-date">Sep 2024 – Present</div>
   <div class="timeline-title">Assistant coach</div>
   <div class="timeline-sub">Italian Basketball Federation, regional section — Rome (IT)</div>
   Assistant Coach for the Italian Basketball Federation’s Women’s Youth Regional Activities and Programs.
