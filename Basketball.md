@@ -46,21 +46,21 @@ further advance my coaching expertise.
   <div class="timeline-date">Sep 2025 – Current</div>
   <div class="timeline-title">Female Section Coordinator & Coach</div>
   <div class="timeline-sub">GBP Frassati Roma — Rome (IT)</div>
-  Coach for the U13 and U11 female teams.
+  Coach for the U13 and U11 Women’s Youth Teams.
 </div>
 
 <div class="timeline-item">
   <div class="timeline-date">Sep 2025 – Current</div>
   <div class="timeline-title">Assistant coach</div>
   <div class="timeline-sub">Italian Basketball Federation, regional section — Rome (IT)</div>
-  Assistant coach for the female regional activities of the Italian Basketball Federation.
+  Assistant Coach for the Italian Basketball Federation’s Women’s Youth Regional Activities and Programs.
 </div>
 
 <div class="timeline-item">
   <div class="timeline-date">Sep 2023 – June 2024</div>
   <div class="timeline-title">Kids Basketball Coach</div>
   <div class="timeline-sub">GBP Frassati Roma — Rome (IT)</div>
-  Coach and assistant coach for the U12, U11 and U9 teams.
+  Coach and Assistant coach for the U12, U11 and U9 Teams.
 </div>
 
 <div class="timeline-item">
@@ -78,8 +78,9 @@ further advance my coaching expertise.
 
 <div class="timeline-item">
   <div class="timeline-date">Sep 2022 – June 2023</div>
-  <div class="timeline-title">U19 Women Team – Assistant Coach</div>
+  <div class="timeline-title">Assistant Coach</div>
   <div class="timeline-sub">SMIT Roma — Rome (IT)</div>
+  Assistant coach for the U19 Women's Team 
 </div>
 
 <div class="timeline-item">
