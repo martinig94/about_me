@@ -29,9 +29,14 @@ nav-menu: true
 }
 </style>
 
-As a dedicated engineer and data scientist at the United Nations, I have consistently applied my analytical skills to deliver impactful results. Motivated by a lifelong passion for basketball, I am pursuing a career transition into coaching and basketball analytics, actively studying and refining my coaching competencies. I hold a particular interest in fostering players’ coordination and decision-making skills, and I am seeking opportunities abroad to broaden my understanding of the game and further advance my coaching expertise.
+As a dedicated engineer and data scientist at the United Nations, I have consistently applied my analytical skills to deliver impactful results.
+Motivated by a lifelong passion for basketball, I am pursuing a career transition into coaching and basketball analytics, actively studying and
+refining my coaching competencies. I hold a particular interest in fostering players’ coordination and decision-making skills, with a growing focus
+on the constraints-led approach and differential learning. I am seeking opportunities abroad to broaden my understanding of the game and
+further advance my coaching expertise.
+---  
+[Download my Basketball CV (PDF)](/assets/cv_basketball.pdf){:download="Giulia_Martini_CV_basketball.pdf"}
 
----
 
 # Basketball Experience — Coaching
 
@@ -42,6 +47,13 @@ As a dedicated engineer and data scientist at the United Nations, I have consist
   <div class="timeline-title">Female Section Coordinator & Coach</div>
   <div class="timeline-sub">GBP Frassati Roma — Rome (IT)</div>
   Coach for the U13 and U11 female teams.
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-date">Sep 2025 – Current</div>
+  <div class="timeline-title">Assistant coach</div>
+  <div class="timeline-sub">Italian Basketball Federation, regional section — Rome (IT)</div>
+  Assistant coach for the female regional activities of the Italian Basketball Federation.
 </div>
 
 <div class="timeline-item">
@@ -91,6 +103,49 @@ As a dedicated engineer and data scientist at the United Nations, I have consist
 
 </div>
 
+
+# Basketball Education
+
+<div class="timeline">
+
+<div class="timeline-item">
+  <div class="timeline-date">December 2026 </div>
+  <div class="timeline-title">EHCB Coaches Academy</div>
+  <div class="timeline-sub"><a href="https://headcoaches.org/">Euroleague Head Coaches Board</a> — Online<br>Scholarship awardee</div>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-date">July 2025 </div>
+  <div class="timeline-title">Basketball Coach – 2nd Level</div>
+  <div class="timeline-sub"><a href="https://fip.it/">Italian Basketball Federation (FIP)</a> — Rieti, IT</div>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-date">July 2024 – March 2025</div>
+  <div class="timeline-title">Master in Neurobiology and Sports Performance</div>
+  <div class="timeline-sub"><a href="https://elearning.barcainnovationhub.com/product/certificate-neurobiology-sports-performance/">Barça Innovation Hub</a> — Online</div>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-date">Sep 2024</div>
+  <div class="timeline-title">Basketball Coach – 1st Level</div>
+  <div class="timeline-sub"><a href="https://fip.it/">Italian Basketball Federation (FIP)</a> — Viterbo, IT</div>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-date">Sep 2013 – Jun 2015</div>
+  <div class="timeline-title">Kids Basketball Coach</div>
+  <div class="timeline-sub"><a href="https://fip.it/">Italian Basketball Federation (FIP)</a> — Florence, IT</div>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-date">Sep 2012</div>
+  <div class="timeline-title">BLSD – Basic Life Support & Defibrillation</div>
+  <div class="timeline-sub">Italian Red Cross — Florence, IT<br>Renewed every 2 years — last renewal: March 2025</div>
+</div>
+
+</div>
+
 ---
 
 # Basketball Experience — Player
@@ -135,7 +190,7 @@ As a dedicated engineer and data scientist at the United Nations, I have consist
 <div class="timeline-item">
   <div class="timeline-date">Sep 2013 – June 2017</div>
   <div class="timeline-title">Basketball Player</div>
-  <div class="timeline-sub">PFF — Florence (IT)</div>
+  <div class="timeline-sub">Pallacanestro Femminile Firenze (PFF) — Florence (IT)</div>
   Third national league (Serie B).
 </div>
 
@@ -149,33 +204,3 @@ As a dedicated engineer and data scientist at the United Nations, I have consist
 </div>
 
 ---
-
-# Basketball Education
-
-<div class="timeline">
-
-<div class="timeline-item">
-  <div class="timeline-date">July 2025 – Present</div>
-  <div class="timeline-title">Basketball Coach – 2nd Level</div>
-  <div class="timeline-sub"><a href="https://fip.it/">FIP</a> — Rieti, IT</div>
-</div>
-
-<div class="timeline-item">
-  <div class="timeline-date">July 2024 – March 2025</div>
-  <div class="timeline-title">Master in Neurobiology and Sports Performance</div>
-  <div class="timeline-sub"><a href="https://elearning.barcainnovationhub.com/product/certificate-neurobiology-sports-performance/">Barça Innovation Hub</a> — Online</div>
-</div>
-
-<div class="timeline-item">
-  <div class="timeline-date">Sep 2024</div>
-  <div class="timeline-title">Basketball Coach – 1st Level</div>
-  <div class="timeline-sub"><a href="https://fip.it/">FIP</a> — Viterbo, IT</div>
-</div>
-
-<div class="timeline-item">
-  <div class="timeline-date">Sep 2013 – Jun 2015</div>
-  <div class="timeline-title">Kids Basketball Coach</div>
-  <div class="timeline-sub"><a href="https://fip.it/">FIP</a> — Florence, IT</div>
-</div>
-
-</div>

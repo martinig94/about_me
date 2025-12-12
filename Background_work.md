@@ -1,15 +1,30 @@
 ---
-layout: page
+layout: post
 title: Professional experience
 description: An engineer in the Humanitarian sector
 image: assets/images/giuli_ai.jpg
 nav-menu: true
 ---
+[Download my Professional CV (PDF)](/assets/cv_professional.pdf){:download="Giulia_Martini_CV.pdf"}
+
 # Work Experience
+### Data Engineer — OCHA - Centre for Humanitarian Data  
+**Rome, Italy · Oct 2024 – Present**  
+**[OCHA – Centre for Humanitarian Data](https://centre.humdata.org/)**
+
+**Technical lead of [HDX Signals](https://un-ocha-centre-for-humanitarian.gitbook.io/hdx-signals)**  
+
+**Main responsibilities:**
+- Project management and planning  
+- Development of new features  
+- Daily maintenance of the tool  
+- Project dissemination
+
+---
 
 ### [United Nations World Food Programme – Supply Chain Division, Supply Chain Planning Branch](https://www.wfp.org/)  
 **Data Scientist** — Rome, Italy  
-**Jan 2024 – Present**  
+**Jan 2024 – Sep 2024**  
 **Main activities:**
 - Demand planning forecast through statistical and ML methods  
 - IT infrastructure design and development  

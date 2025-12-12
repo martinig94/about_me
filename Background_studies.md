@@ -1,10 +1,12 @@
 ---
-layout: page
-title: My background
+layout: post
+title: Background
 description: Studies, hard and soft skills
 image: assets/images/giuli.jpg
 nav-menu: true
 ---
+[Download my Professional CV (PDF)](/assets/cv_professional.pdf){:download="Giulia_Martini_CV.pdf"}  
+[Download my Basketball CV (PDF)](/assets/cv_basketball.pdf){:download="Giulia_Martini_CV_basketball.pdf"}
 # Education
 
 ## M.Sc. in Structural Engineering
@@ -51,15 +53,15 @@ nav-menu: true
 
 # Soft Skills
 
-| Category                  | Skills / Competencies |
-|----------------------------|---------------------|
-| **Leadership & Teamwork**  | Team captain experience, youth team coordination, mentoring, motivating players, collaborative project work, empathy in coaching and teamwork |
-| **Communication**           | Public speaking, presentations, report writing, coaching instructions, cross-cultural communication |
-| **Analytical Thinking**     | Problem-solving, data interpretation, critical thinking, decision-making under uncertainty |
+| Category                  | Skills / Competencies                                                                                                                                               |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Leadership & Teamwork**  | Team captain experience, coordination, mentoring, collaborative project work, empathy                                                                               |
+| **Communication**           | Public speaking, presentations, report writing, coaching instructions, cross-cultural communication                                                                 |
+| **Analytical Thinking**     | Problem-solving, eye for detail, data interpretation, critical thinking, decision-making under uncertainty                                                          |
 | **Adaptability & Continuous Learning** | Quick learning of new tools and methods, adapting to different cultural and professional contexts, continuous professional development, desire for self-improvement |
-| **Organization & Planning** | Project management, training session planning, event coordination, time management |
-| **Creativity & Innovation** | Developing new training exercises, applying innovative data solutions, designing data visualization and reporting tools |
-| **Resilience & Persistence**| Adaptabiity to multicultural environments, Managing challenging situations in humanitarian and sports environments, maintaining performance under pressure |
+| **Organization & Planning** | Project management, training session planning, event coordination, time management                                                                                  |
+| **Creativity & Innovation** | Applying innovative solutions, designing data visualization and reporting tools                                                                                     |
+| **Resilience & Persistence**| Adaptabiity, Managing challenging situations in humanitarian and sports environments, maintaining performance under pressure, delivering under time constraints     |
 
 # Language Skills
 

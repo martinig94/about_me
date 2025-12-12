@@ -1,6 +1,6 @@
 ---
 title: Publications
-layout: page
+layout: post
 image: assets/images/publications.jpg
 nav-menu: true
 ---
