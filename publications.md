@@ -13,14 +13,18 @@ nav-menu: true
   bioRxiv. [Link](https://www.biorxiv.org/content/early/2025/04/10/2025.04.08.647715)  
   *Abstract:* Identifying populations at risk of inadequate micronutrient intake is useful for governments and humanitarian organizations...  
 
-### 2023
-- **Reichstein, M., Benson, V., Martini, G.**  
+- **Reichstein, M., Benson, V., Blunk, J., Camps-Valls, G., Creutzig, F., Fearnley, C. J., Han, B., Kornhuber, K., Rahaman, N., Schölkopf, B., Tárraga, J. M., Vinuesa, R., Dall, K., Denzler, J., Frank, D., Martini, G., Nganga, N., Maddix, D. C., Weldemariam, K.**  
   *Early warning of complex climate risk with integrated artificial intelligence*  
-  Submitted for publication to *Nature*, Dec 2023  
+  Nature Communications, 16(1), 2564. [Link](https://doi.org/10.1038/s41467-025-57640-w)  
+  *Abstract:* As climate change accelerates, human societies face growing exposure to disasters and stress, highlighting the urgent need for effective early warning systems (EWS). These systems monitor, assess, and communicate risks to support resilience and sustainable development, but challenges remain in hazard forecasting, risk communication, and decision-making. This perspective explores the transformative potential of integrated Artificial Intelligence (AI) modeling. We highlight the role of AI in developing multi-hazard EWSs that integrate Meteorological and Geospatial foundation models (FMs) for impact prediction. A user-centric approach with intuitive interfaces and community feedback is emphasized to improve crisis management. To address climate risk complexity, we advocate for causal AI models to avoid spurious predictions and stress the need for responsible AI practices. We highlight the FATES (Fairness, Accountability, Transparency, Ethics, and Sustainability) principles as essential for equitable and trustworthy AI-based Early Warning Systems for all. We further advocate for decadal EWSs, leveraging climate ensembles and generative methods to enable long-term, spatially resolved forecasts for proactive climate adaptation.
 
-- **Herteux, J., Räth, C., Baha, A., Martini, G., Piovani, D.**  
-  *Forecasting Trends in Food Security: a Reservoir Computing Approach*  
-  arXiv: [Link](https://doi.org/10.48550/arXiv.2312.00626)  
+### 2024
+- **Herteux, J., Raeth, C., Martini, G., B., A., Koupparis, K., Lauzana, I., Piovani, D.**  
+  *Forecasting trends in food security with real time data*  
+  Communications Earth & Environment. [Link](https://doi.org/10.1038/s43247-024-01698-9)  
+  *Abstract:* Early warning systems are an essential tool for effective humanitarian action. Advance warnings on impending disasters facilitate timely and targeted response which help save lives and livelihoods. In this work we present a quantitative methodology to forecast levels of food consumption for 60 consecutive days, at the sub-national level, in four countries: Mali, Nigeria, Syria, and Yemen. The methodology is built on publicly available data from the World Food Programme's global hunger monitoring system which collects, processes, and displays daily updates on key food security metrics, conflict, weather events, and other drivers of food insecurity. In this study we assessed the performance of various models including Autoregressive Integrated Moving Average (ARIMA), Extreme Gradient Boosting (XGBoost), Long Short Term Memory (LSTM) Network, Convolutional Neural Network (CNN), and Reservoir Computing (RC), by comparing their Root Mean Squared Error (RMSE) metrics. Our findings highlight Reservoir Computing as a particularly well-suited model in the field of food security given both its notable resistance to over-fitting on limited data samples and its efficient training capabilities. The methodology we introduce establishes the groundwork for a global, data-driven early warning system designed to anticipate and detect food insecurity.
+
+### 2023
 
 - **Fiandrino, S., Dowd, C., Martini, G., Mejova, Y., Omodei, E., Paolotti, D., Tizzani, M.**  
   *Impact of food-related conflicts on self-reported food insecurity*  
