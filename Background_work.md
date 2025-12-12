@@ -8,18 +8,17 @@ nav-menu: true
 [Download my Professional CV (PDF)](/about_me/assets/cv_professional.pdf){:download="Giulia_Martini_CV.pdf"}
 
 # Work Experience
-### Data Engineer — OCHA - Centre for Humanitarian Data  
-**Rome, Italy · Oct 2024 – Present**  
-**[OCHA – Centre for Humanitarian Data](https://centre.humdata.org/)**
-
-**Technical lead of [HDX Signals](https://un-ocha-centre-for-humanitarian.gitbook.io/hdx-signals)**  
-
+### [OCHA – Centre for Humanitarian Data](https://centre.humdata.org/)
+**Data Scientist** - Remote
+**Oct 2024 – Present**  
+****  
 **Main responsibilities:**
-- Project management and planning  
-- Development of new features  
-- Daily maintenance of the tool  
-- Project dissemination
-
+- Technical lead of [HDX Signals](https://un-ocha-centre-for-humanitarian.gitbook.io/hdx-signals)
+  - Project management and planning  
+  - Development of new features  
+  - Daily maintenance of the tool  
+  - Project dissemination
+- Development of Anticipatory Action Frameworks
 ---
 
 ### [United Nations World Food Programme – Supply Chain Division, Supply Chain Planning Branch](https://www.wfp.org/)  
