@@ -10,14 +10,12 @@ nav-menu: true
 ### 2025
 - **Voukelatou, V., Tang, K., Lauzana, I., Jangid, M., Martini, G., de Pee, S., Knight, F., Piovani, D.**  
   *Bridging data gaps: predicting inadequate micronutrient intake with machine learning*  
-  bioRxiv. [Link](https://www.biorxiv.org/content/early/2025/04/10/2025.04.08.647715)  
-  *Abstract:* Identifying populations at risk of inadequate micronutrient intake is useful for governments and humanitarian organizations...  
+  bioRxiv. [Link](https://www.biorxiv.org/content/early/2025/04/10/2025.04.08.647715)
 
 - **Reichstein, M., Benson, V., Blunk, J., Camps-Valls, G., Creutzig, F., Fearnley, C. J., Han, B., Kornhuber, K., Rahaman, N., Schölkopf, B., Tárraga, J. M., Vinuesa, R., Dall, K., Denzler, J., Frank, D., Martini, G., Nganga, N., Maddix, D. C., Weldemariam, K.**  
   *Early warning of complex climate risk with integrated artificial intelligence*  
   Nature Communications, 16(1), 2564. [Link](https://doi.org/10.1038/s41467-025-57640-w)  
-  *Abstract:* As climate change accelerates, human societies face growing exposure to disasters and stress, highlighting the urgent need for effective early warning systems (EWS). These systems monitor, assess, and communicate risks to support resilience and sustainable development, but challenges remain in hazard forecasting, risk communication, and decision-making. This perspective explores the transformative potential of integrated Artificial Intelligence (AI) modeling. We highlight the role of AI in developing multi-hazard EWSs that integrate Meteorological and Geospatial foundation models (FMs) for impact prediction. A user-centric approach with intuitive interfaces and community feedback is emphasized to improve crisis management. To address climate risk complexity, we advocate for causal AI models to avoid spurious predictions and stress the need for responsible AI practices. We highlight the FATES (Fairness, Accountability, Transparency, Ethics, and Sustainability) principles as essential for equitable and trustworthy AI-based Early Warning Systems for all. We further advocate for decadal EWSs, leveraging climate ensembles and generative methods to enable long-term, spatially resolved forecasts for proactive climate adaptation.
-
+ 
 ### 2024
 - **Herteux, J., Raeth, C., Martini, G., B., A., Koupparis, K., Lauzana, I., Piovani, D.**  
   *Forecasting trends in food security with real time data*  
@@ -37,12 +35,11 @@ nav-menu: true
 ### 2022
 - **Rózsás, Á., Slobbe, A., Jansen, R., Martini, G., Allaix, D.**  
   *Structural and load parameter estimation of a real-world reinforced concrete slab bridge using measurements and Bayesian statistics*  
-  Structural Concrete. [DOI](http://doi.org/10.1002/suco.202100913)  
+  Structural Concrete. [Link](http://doi.org/10.1002/suco.202100913)  
 
-### 2022
-- **Martini, G., Bracci, A., Jaiswal, S., Corea, M., Riches, L., Rivers, J., Omodei, E.**  
+- **Martini, G., Bracci, A., Riches, L., Jaiswal, S., Corea, M., Rivers, J., Husain, A., Omodei, E.**  
   *Machine learning can guide food security efforts when primary data are not available*  
-  medRxiv. [Link](https://www.medrxiv.org/content/early/2021/07/02/2021.06.23.21259419)  
+  Nature Food, 3(9), 716–728. [Link](https://doi.org/10.1038/s43016-022-00587-8)
 
 ### 2021
 - **Meocci, M., Branzi, V., Martini, G., Arrighi, R., Petrizzo, I.**  
