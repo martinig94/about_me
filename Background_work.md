@@ -8,10 +8,11 @@ nav-menu: true
 [Download my Professional CV (PDF)](/about_me/assets/cv_professional.pdf){:download="Giulia_Martini_CV.pdf"}
 
 # Work Experience
+
 ### [OCHA – Centre for Humanitarian Data](https://centre.humdata.org/)
-**Data Scientist** - Remote
+**Data Scientist** - Remote  
 **Oct 2024 – Present**
-**Main responsibilities:**
+**Main activities:**
 - Technical lead of [HDX Signals](https://un-ocha-centre-for-humanitarian.gitbook.io/hdx-signals)
   - Project management and planning  
   - Development of new features  
