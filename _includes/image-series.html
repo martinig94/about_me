@@ -1,0 +1,460 @@
+{% raw %}
+<!-- IMAGE SERIES GENERATOR — save as _includes/image-series.html -->
+<!-- In any .md page, embed with: {% include image-series.html %} -->
+
+<style>
+  .igs-wrap {
+    font-family: 'DM Mono', 'Fira Mono', monospace;
+    background: #ffffff;
+    border: 1px solid #222;
+    border-radius: 4px;
+    padding: 32px 28px 28px;
+    max-width: 580px;
+    margin: 40px auto;
+    color: #242942;
+  }
+
+  .igs-title {
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 28px;
+    border-bottom: 1px solid #1e1e1e;
+    padding-bottom: 12px;
+  }
+
+  .igs-label {
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #444;
+    margin-bottom: 10px;
+    margin-top: 24px;
+  }
+
+  .igs-group-row {
+    display: flex;
+    gap: 8px;
+  }
+
+  .igs-group-btn {
+    flex: 1;
+    padding: 8px 0;
+    background: #ffffff;
+    border: 1px solid #2a2a2a;
+    border-radius: 2px;
+    color: #666;
+    font-family: inherit;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .igs-group-btn:hover { border-color: #555; color: #aaa; }
+  .igs-group-btn.active {
+    background: #242942;
+    border-color: #0733ff;
+    color: #0733ff;
+  }
+
+  .igs-sliders {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 4px;
+  }
+
+  .igs-slider-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 8px;
+  }
+
+  .igs-slider-name {
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #555;
+  }
+
+  .igs-slider-val {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #0733ff;
+  }
+
+  input[type="range"].igs-range {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 2px;
+    background: #2a2a2a;
+    border-radius: 1px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  input[type="range"].igs-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px; height: 12px;
+    border-radius: 50%;
+    background: #242942;
+    cursor: pointer;
+    transition: transform 0.1s;
+  }
+
+  input[type="range"].igs-range::-webkit-slider-thumb:hover {
+    transform: scale(1.3);
+  }
+
+  .igs-run {
+    margin-top: 28px;
+    width: 100%;
+    padding: 12px;
+    background: #242942;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 0.72rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+
+  .igs-run:hover { opacity: 0.85; }
+
+  .igs-viewer {
+    margin-top: 28px;
+    display: none;
+  }
+
+  .igs-viewer.active { display: block; }
+
+  .igs-screen {
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: #ffffff;
+    border: 1px solid #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 2px;
+  }
+
+  .igs-screen img {
+    width: 100%; height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+
+  .igs-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    color: #444;
+  }
+
+  .igs-progress {
+    margin-top: 8px;
+    width: 100%;
+    height: 1px;
+    background: #1e1e1e;
+  }
+
+  .igs-fill {
+    height: 100%;
+    background: #c8b090;
+    width: 0%;
+    transition: width 0.1s linear;
+  }
+
+  .igs-dots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin-top: 14px;
+  }
+
+  .igs-dot {
+    width: 8px; height: 8px;
+    border-radius: 1px;
+    background: #1e1e1e;
+    transition: background 0.15s;
+  }
+
+  .igs-dot.frame-black  { background: #ffffff; border: 1px solid #1e1e1e; }
+  .igs-dot.active       { background: #0733ff !important; border-color: #0733ff !important; }
+  .igs-dot.done-intro   { background: #f6ac32; }
+  .igs-dot.done-outro   { background: #f6ac32; }
+  .igs-dot.done-standard { background: #258a05; }
+  .igs-dot.done-inverse  { background: #ff0000; }
+  .igs-dot.done-black   { background: #1e1e1e; border: 1px solid #222; }
+
+  .igs-ctrl-row {
+    display: flex;
+    gap: 8px;
+    margin-top: 14px;
+  }
+
+  .igs-ctrl-btn {
+    flex: 1;
+    padding: 8px;
+    background: #141416;
+    border: 1px solid #2a2a2a;
+    border-radius: 2px;
+    color: #666;
+    font-family: inherit;
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .igs-ctrl-btn:hover { border-color: #555; color: #aaa; }
+</style>
+
+<div class="igs-wrap">
+  <div class="igs-title">Image Series Generator</div>
+
+  <div class="igs-label">Group filter</div>
+  <div class="igs-group-row">
+    <button class="igs-group-btn active" data-group="all">All</button>
+    <button class="igs-group-btn" data-group="standard">Standard only</button>
+    <button class="igs-group-btn" data-group="inverse">Inverse only</button>
+  </div>
+
+  <div class="igs-label">Parameters</div>
+  <div class="igs-sliders">
+    <div class="igs-slider-group">
+      <div class="igs-slider-top">
+        <span class="igs-slider-name">Frames</span>
+        <span class="igs-slider-val" id="igs-frames-val">5</span>
+      </div>
+      <input type="range" class="igs-range" id="igs-frames" min="4" max="10" value="5" />
+    </div>
+    <div class="igs-slider-group">
+      <div class="igs-slider-top">
+        <span class="igs-slider-name">Sec / frame</span>
+        <span class="igs-slider-val" id="igs-sec-val">0.5s</span>
+      </div>
+      <input type="range" class="igs-range" id="igs-sec" min="5" max="50" value="5" />
+    </div>
+  </div>
+
+  <button class="igs-run" id="igs-generate">Generate</button>
+
+  <div class="igs-viewer" id="igs-viewer">
+    <div class="igs-screen">
+      <img id="igs-img" src="" alt="" />
+    </div>
+    <div class="igs-meta">
+      <span id="igs-counter">—</span>
+      <span id="igs-status">—</span>
+    </div>
+    <div class="igs-progress"><div class="igs-fill" id="igs-fill"></div></div>
+    <div class="igs-dots" id="igs-dots"></div>
+    <div class="igs-ctrl-row">
+      <button class="igs-ctrl-btn" id="igs-stop">Stop</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+
+  // ─────────────────────────────────────────────
+  // CONFIGURE YOUR IMAGES AND DURATIONS HERE
+  // intro/outro ms = milliseconds per frame
+  // blackDuration  = milliseconds for the black flash
+  // standard/inverse = src paths only (duration comes from the slider)
+  // ─────────────────────────────────────────────
+  var CONFIG = {
+    intro: [
+      { src: 'assets/images/series/open0.png', ms: 1000 },
+      { src: 'assets/images/series/open1.png', ms: 1000 },
+      { src: 'assets/images/series/open2.png', ms: 1000 },
+      { src: 'assets/images/series/open3.png', ms: 1000 },
+      { src: 'assets/images/series/open4.png', ms: 1000 },
+    ],
+    outro: [
+      { src: 'assets/images/series/end.png', ms: 3000 },
+    ],
+    // src strings only — no ms needed here
+    standard: [
+      'assets/images/series/right_yes.png',
+      'assets/images/series/left_yes.png',
+    ],
+    inverse: [
+      'assets/images/series/right_no.png',
+      'assets/images/series/left_no.png',
+    ],
+    blackDuration: 300,  // milliseconds
+  };
+  // ─────────────────────────────────────────────
+
+  var BLACK = '__black__';
+  var group = 'all';
+  var timer = null;
+  var sequence = [];
+
+  var framesSlider = document.getElementById('igs-frames');
+  var secSlider    = document.getElementById('igs-sec');
+  var framesVal    = document.getElementById('igs-frames-val');
+  var secVal       = document.getElementById('igs-sec-val');
+  var generateBtn  = document.getElementById('igs-generate');
+  var viewer       = document.getElementById('igs-viewer');
+  var img          = document.getElementById('igs-img');
+  var counter      = document.getElementById('igs-counter');
+  var status       = document.getElementById('igs-status');
+  var fill         = document.getElementById('igs-fill');
+  var dotsEl       = document.getElementById('igs-dots');
+  var stopBtn      = document.getElementById('igs-stop');
+
+  // Group buttons
+  document.querySelectorAll('.igs-group-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.igs-group-btn').forEach(function(b) {
+        b.classList.remove('active');
+      });
+      btn.classList.add('active');
+      group = btn.dataset.group;
+    });
+  });
+
+  // Sliders
+  framesSlider.addEventListener('input', function() {
+    framesVal.textContent = framesSlider.value;
+  });
+
+  secSlider.addEventListener('input', function() {
+    secVal.textContent = (parseInt(secSlider.value) / 10).toFixed(1) + 's';
+  });
+
+  // Returns a flat array of src strings for the random pool
+  function getPool() {
+    if (group === 'standard') return CONFIG.standard.slice();
+    if (group === 'inverse')  return CONFIG.inverse.slice();
+    return CONFIG.standard.concat(CONFIG.inverse);
+  }
+
+  // Every entry in the sequence is: { src, ms, kind }
+  // kind: 'intro' | 'outro' | 'standard' | 'inverse' | 'black'
+  function buildSequence(nMiddle, msContent) {
+    var pool   = getPool();
+    var result = [];
+
+    // Intro frames
+    CONFIG.intro.forEach(function(frame) {
+      result.push({ src: frame.src, ms: frame.ms, kind: 'intro' });
+    });
+
+    // Random middle frames
+    for (var i = 0; i < nMiddle; i++) {
+      var src  = pool[Math.floor(Math.random() * pool.length)];
+      var kind = CONFIG.standard.indexOf(src) >= 0 ? 'standard' : 'inverse';
+      result.push({ src: src, ms: msContent, kind: kind });
+      result.push({ src: BLACK, ms: CONFIG.blackDuration, kind: 'black' });
+    }
+
+    // Outro frames — no trailing black after the very last one
+    CONFIG.outro.forEach(function(frame, idx) {
+      result.push({ src: frame.src, ms: frame.ms, kind: 'outro' });
+      if (idx < CONFIG.outro.length - 1) {
+        result.push({ src: BLACK, ms: CONFIG.blackDuration, kind: 'black' });
+      }
+    });
+
+    return result;
+  }
+
+  function buildDots(seq) {
+    dotsEl.innerHTML = '';
+    seq.forEach(function(entry, i) {
+      var d = document.createElement('div');
+      d.className = 'igs-dot' + (entry.kind === 'black' ? ' frame-black' : '');
+      d.id = 'igd-' + i;
+      dotsEl.appendChild(d);
+    });
+  }
+
+  function updateDots(current) {
+    sequence.forEach(function(entry, i) {
+      var d = document.getElementById('igd-' + i);
+      if (!d) return;
+      if (i === current) {
+        d.className = 'igs-dot active';
+      } else if (i < current) {
+        d.className = 'igs-dot done-' + entry.kind;
+      } else {
+        d.className = 'igs-dot' + (entry.kind === 'black' ? ' frame-black' : '');
+      }
+    });
+  }
+
+  function startSeries() {
+    var loopTimer = null;
+    var nMiddle   = parseInt(framesSlider.value);
+    var msContent = (parseInt(secSlider.value) / 10) * 1000;
+
+    sequence = buildSequence(nMiddle, msContent);
+    buildDots(sequence);
+
+    viewer.classList.add('active');
+    fill.style.width = '0%';
+
+    var totalContent = sequence.filter(function(e) { return e.kind !== 'black'; }).length;
+    var contentSeen  = 0;
+
+    function showFrame(i) {
+      if (i >= sequence.length) {
+        status.textContent = 'done';
+        fill.style.width = '100%';
+
+        // Calculate how long the series actually took
+        var seriesMs = sequence.reduce(function(sum, e) { return sum + e.ms; }, 0);
+        var loopInterval = 15000;
+        var waitMs = loopInterval;
+
+        status.textContent = 'replaying in ' + Math.round(waitMs / 1000) + 's…';
+        loopTimer = setTimeout(startSeries, waitMs);
+        return;
+      }
+
+      var entry = sequence[i];
+
+      if (entry.kind === 'black') {
+        img.style.opacity = '0';
+      } else {
+        img.src = entry.src;
+        img.style.opacity = '1';
+        contentSeen++;
+        counter.textContent = 'Frame ' + contentSeen + ' / ' + totalContent;
+        fill.style.width = (contentSeen / totalContent * 100) + '%';
+        status.textContent = entry.src.split('/').pop();
+      }
+
+      updateDots(i);
+      timer = setTimeout(function() { showFrame(i + 1); }, entry.ms);
+    }
+
+    showFrame(0);
+  }
+
+  generateBtn.addEventListener('click', startSeries);
+  stopBtn.addEventListener('click', function() {
+    clearTimeout(timer);
+    clearTimeout(loopTimer);
+    status.textContent = 'stopped';
+  });
+
+})();
+</script>
+{% endraw %}
