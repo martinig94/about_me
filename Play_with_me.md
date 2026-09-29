@@ -6,29 +6,6 @@ image: assets/images/basketball_1.jpeg
 nav-menu: true
 ---
 
-<style>
-.timeline {
-  border-left: 3px solid #ccc;
-  margin-left: 20px;
-  padding-left: 20px;
-}
-.timeline-item {
-  margin-bottom: 1.5em;
-}
-.timeline-date {
-  font-weight: bold;
-  color: #555;
-}
-.timeline-title {
-  font-size: 1.1em;
-  font-weight: bold;
-}
-.timeline-sub {
-  color: #777;
-  margin-bottom: 0.3em;
-}
-</style>
+Improve your ball handling and reflexes! Challenge your teammates!
 
-Some text
----  
 {% include image-series.html %}

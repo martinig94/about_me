@@ -52,11 +52,11 @@
     transition: all 0.15s;
   }
 
-  .igs-group-btn:hover { border-color: #555; color: #aaa; }
+  .igs-group-btn:hover { border-color: #242942; color: #242942; }
   .igs-group-btn.active {
     background: #242942;
-    border-color: #0733ff;
-    color: #0733ff;
+    border-color: #242942;
+    color: #ffffff;
   }
 
   .igs-sliders {
@@ -206,10 +206,10 @@
   .igs-ctrl-btn {
     flex: 1;
     padding: 8px;
-    background: #141416;
-    border: 1px solid #2a2a2a;
+    background: #242942;
+    border: 1px solid #242942;
     border-radius: 2px;
-    color: #666;
+    color: #ffffff;
     font-family: inherit;
     font-size: 0.62rem;
     letter-spacing: 0.1em;
@@ -218,7 +218,7 @@
     transition: all 0.15s;
   }
 
-  .igs-ctrl-btn:hover { border-color: #555; color: #aaa; }
+  .igs-ctrl-btn:hover { opacity: 0.85; }
 </style>
 
 <div class="igs-wrap">
@@ -303,6 +303,7 @@
   var BLACK = '__black__';
   var group = 'all';
   var timer = null;
+  var loopTimer = null;
   var sequence = [];
 
   var framesSlider = document.getElementById('igs-frames');
@@ -400,7 +401,7 @@
   }
 
   function startSeries() {
-    var loopTimer = null;
+    clearTimeout(loopTimer);
     var nMiddle   = parseInt(framesSlider.value);
     var msContent = (parseInt(secSlider.value) / 10) * 1000;
 
@@ -418,11 +419,7 @@
         status.textContent = 'done';
         fill.style.width = '100%';
 
-        // Calculate how long the series actually took
-        var seriesMs = sequence.reduce(function(sum, e) { return sum + e.ms; }, 0);
-        var loopInterval = 15000;
-        var waitMs = loopInterval;
-
+        var waitMs = 15000;
         status.textContent = 'replaying in ' + Math.round(waitMs / 1000) + 's…';
         loopTimer = setTimeout(startSeries, waitMs);
         return;
