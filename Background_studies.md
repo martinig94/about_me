@@ -44,10 +44,11 @@ nav-menu: true
 
 | Category | Skills / Tools |
 |----------|----------------|
-| **Python** | Numerical optimization, linear algebra, statistics, machine learning, Bayesian computational methods, surrogate modeling, visualization, web development, automated code documentation. Libraries: numpy, scipy, sklearn, pandas, pyspark, matplotlib, pyMC3, nestle, keras, pytorch, xgboost, catboost, sphinx, mkdocs, jinja2, etc. |
-| **R** | Linear algebra, nonlinear numerical methods, Bayesian analysis, statistics, visualization, interactive web applications. Libraries: dplyr, rstan, bmle, evd, parallel, shiny, ggplot2, leafletR, etc. |
-| **Software Engineering** | git, GitLab, GitHub; unit testing, integration testing, CI/CD, automated documentation; package development (PyPI). |
+| **Python** (5+ years) | Numerical optimization, linear algebra, statistics, machine learning, Bayesian computational methods, surrogate modeling, visualization, web development, automated code documentation; functional and object oriented programming. Libraries: numpy, scipy, sklearn, pandas, pyspark, matplotlib, pyMC3, nestle, keras, pytorch, xgboost, catboost, sphinx, mkdocs, jinja2, etc. |
+| **R** (5+ years) | Linear algebra, nonlinear numerical methods, Bayesian analysis and computational methods, basic and advanced statistics, visualization, interactive web applications; functional and reactive programming. Implementation of comprehensive programs and algorithms to solve complex, computationally demanding engineering and statistical problems; interactive websites for educational purposes and research dissemination. Libraries: dplyr, rstan, bmle, evd, parallel, shiny, ggplot2, leafletR, etc. |
+| **Software Engineering** | git, GitLab, GitHub; unit testing, integration testing, automated code documentation, semantic versioning; CI/CD; package development (PyPI). |
 | **Other Tools** | Tableau, PowerBI; Kobo ToolBox; Microsoft Office, Adobe Illustrator; LaTeX; SQL, PostgreSQL; Web: CSS, HTML, Jekyll; GIS: QGIS; Docker. |
+| **Video Editing** | Nacsport |
 
 
 

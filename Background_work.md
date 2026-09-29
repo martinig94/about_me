@@ -9,16 +9,15 @@ nav-menu: true
 
 # Work Experience
 
-### [OCHA – Centre for Humanitarian Data](https://centre.humdata.org/)
-**Data Scientist** - Remote  
+### [OCHA – Centre for Humanitarian Data – Data Science Team](https://centre.humdata.org/)
+**Data Engineer** — Rome, Italy  
 **Oct 2024 – Present**  
-**Main activities:**
-- Technical lead of [HDX Signals](https://un-ocha-centre-for-humanitarian.gitbook.io/hdx-signals)
-  - Project management and planning  
-  - Development of new features  
-  - Daily maintenance of the tool  
-  - Project dissemination
-- Development of Anticipatory Action Frameworks  
+Technical lead of [HDX Signals](https://un-ocha-centre-for-humanitarian.gitbook.io/hdx-signals).  
+**Main responsibilities:**
+- Project management and planning  
+- Development of new features  
+- Daily maintenance of the tool  
+- Project dissemination  
 
 ---
 
@@ -32,13 +31,13 @@ nav-menu: true
 
 ---
 
-### [United Nations World Food Programme – Research Assessment and Monitoring Division](https://www.wfp.org/)  
+### [United Nations World Food Programme – Research Assessment and Monitoring Division, Hunger Monitoring Unit](https://www.wfp.org/)  
 **Data Scientist** — Rome, Italy  
 **Oct 2020 – Jan 2024**  
 **Main activities:**
 - Research on the relationship between food security and its drivers  
 - Food security modeling using machine learning and standard statistical methods  
-- Reports and papers writing  
+- Food security household survey data analysis  
 - Database and information management  
 
 ---
@@ -53,10 +52,10 @@ nav-menu: true
 
 ---
 
-### [University of Florence](https://www.unifi.it/)  
+### [University of studies of Florence](https://www.unifi.it/)  
 **Research Fellow** — Florence, Italy  
 **May 2020 – May 2021**  
-Researcher of the SWALK (Safe crossWALKs in urban areas) project.  
+Researcher of the SWALK (Safe crossWALKs in urban areas: assessment of countermeasures to improve pedestrian safety) project.  
 **Main activities:**
 - Data manipulation and analysis  
 - Machine learning application  
@@ -69,8 +68,10 @@ Researcher of the SWALK (Safe crossWALKs in urban areas) project.
 **Researcher** — Delft, The Netherlands  
 **Nov 2019 – Oct 2020**  
 **Main activities:**
-- Research on applying machine learning to civil engineering issues  
+- Research on the applicability of machine learning to civil engineering issues  
+- Data manipulation  
 - Probabilistic analysis  
+- Machine learning application  
 - Reports and papers writing  
 - Spatial data analysis  
 
