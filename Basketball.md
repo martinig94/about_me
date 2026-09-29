@@ -30,10 +30,8 @@ nav-menu: true
 </style>
 
 As a dedicated engineer and data scientist at the United Nations, I have consistently applied my analytical skills to deliver impactful results.
-Motivated by a lifelong passion for basketball, I am pursuing a career transition into coaching and basketball analytics, actively studying and
-refining my coaching competencies. I hold a particular interest in fostering players’ coordination and decision-making skills, with a growing focus
-on the constraints-led approach and differential learning. I am seeking opportunities abroad to broaden my understanding of the game and
-further advance my coaching expertise.
+Motivated by a lifelong passion for basketball, I am now pursuing a career transition into basketball analytics and coaching, actively studying
+and refining my knowledge of the game. I hold a particular interest in the intersection between statistics, match analysis and coaching.
 ---  
 [Download my Basketball CV (PDF)](/about_me/assets/cv_basketball.pdf){:download="Giulia_Martini_CV_basketball.pdf"}
 
@@ -44,15 +42,15 @@ further advance my coaching expertise.
 
 <div class="timeline-item">
   <div class="timeline-date">Sep 2025 – Present</div>
-  <div class="timeline-title">Women’s Youth Section Coordinator & Coach</div>
+  <div class="timeline-title">Female Section Coordinator & Head Coach</div>
   <div class="timeline-sub">GBP Frassati Roma — Rome (IT)</div>
-  Coach for the U13 and U11 Women’s Youth Teams.
+  Section coordinator and coach for the U14, U13 and U11 Women’s Youth Teams.
 </div>
 
 <div class="timeline-item">
-  <div class="timeline-date">Sep 2024 – Present</div>
-  <div class="timeline-title">Assistant coach</div>
-  <div class="timeline-sub">Italian Basketball Federation, regional section — Rome (IT)</div>
+  <div class="timeline-date">Sep 2024 – June 2025</div>
+  <div class="timeline-title">Assistant Coach</div>
+  <div class="timeline-sub">Italian Basketball Federation, regional section (FIP Lazio) — Rome (IT)</div>
   Assistant Coach for the Italian Basketball Federation’s Women’s Youth Regional Activities and Programs.
 </div>
 
@@ -60,14 +58,7 @@ further advance my coaching expertise.
   <div class="timeline-date">Sep 2023 – June 2024</div>
   <div class="timeline-title">Kids Basketball Coach</div>
   <div class="timeline-sub">GBP Frassati Roma — Rome (IT)</div>
-  Coach and Assistant coach for the U12, U11 and U9 Teams.
-</div>
-
-<div class="timeline-item">
-  <div class="timeline-date">Sep 2023 – Current</div>
-  <div class="timeline-title">Skill Development Coach</div>
-  <div class="timeline-sub">GBP Frassati Roma — Rome (IT)</div>
-  Skill development coach for youth teams (U16, U14).
+  Head coach and assistant coach for the U13, U12, U11 and U9 Teams.
 </div>
 
 <div class="timeline-item">
@@ -110,7 +101,13 @@ further advance my coaching expertise.
 <div class="timeline">
 
 <div class="timeline-item">
-  <div class="timeline-date">December 2025 - Present</div>
+  <div class="timeline-date">Aug 2026</div>
+  <div class="timeline-title">Strength and Conditioning – 1st Level</div>
+  <div class="timeline-sub"><a href="https://fip.it/">Italian Basketball Federation (FIP)</a> — Salsomaggiore Terme, IT</div>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-date">December 2025 – June 2026</div>
   <div class="timeline-title">EHCB Coaches Academy</div>
   <div class="timeline-sub"><a href="https://headcoaches.org/">Euroleague Head Coaches Board</a> — Online<br>Scholarship awardee</div>
 </div>
@@ -182,7 +179,7 @@ further advance my coaching expertise.
 </div>
 
 <div class="timeline-item">
-  <div class="timeline-date">Sep 2017 – June 2029</div>
+  <div class="timeline-date">Sep 2017 – June 2019</div>
   <div class="timeline-title">Basketball Player & Team Captain</div>
   <div class="timeline-sub">TU DELFT — Delft (NL)</div>
   Third national league.
