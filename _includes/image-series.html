@@ -146,6 +146,8 @@
     border-radius: 2px;
   }
 
+  .igs-screen.igs-black { background: #000000; }
+
   .igs-screen img {
     width: 100%; height: 100%;
     object-fit: contain;
@@ -252,7 +254,7 @@
   <button class="igs-run" id="igs-generate">Generate</button>
 
   <div class="igs-viewer" id="igs-viewer">
-    <div class="igs-screen">
+    <div class="igs-screen" id="igs-screen">
       <img id="igs-img" src="" alt="" />
     </div>
     <div class="igs-meta">
@@ -313,6 +315,7 @@
   var generateBtn  = document.getElementById('igs-generate');
   var viewer       = document.getElementById('igs-viewer');
   var img          = document.getElementById('igs-img');
+  var screenEl     = document.getElementById('igs-screen');
   var counter      = document.getElementById('igs-counter');
   var status       = document.getElementById('igs-status');
   var fill         = document.getElementById('igs-fill');
@@ -401,6 +404,7 @@
   }
 
   function startSeries() {
+    clearTimeout(timer);
     clearTimeout(loopTimer);
     var nMiddle   = parseInt(framesSlider.value);
     var msContent = (parseInt(secSlider.value) / 10) * 1000;
@@ -427,6 +431,7 @@
 
       var entry = sequence[i];
 
+      screenEl.classList.toggle('igs-black', entry.kind === 'black');
       if (entry.kind === 'black') {
         img.style.opacity = '0';
       } else {
@@ -449,6 +454,7 @@
   stopBtn.addEventListener('click', function() {
     clearTimeout(timer);
     clearTimeout(loopTimer);
+    screenEl.classList.remove('igs-black');
     status.textContent = 'stopped';
   });
 
